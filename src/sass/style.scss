@@ -1,0 +1,51 @@
+
+@import 'bootstrap';
+@import 'font.awesome';
+@import 'font.awesome.animation';
+
+@import 'variables';
+@import 'typography';
+
+body {
+
+	background-image: url('../assets/svg/wrapper.svg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0 0 0;
+	min-height: 100vh;
+
+	div {
+
+		div {
+
+			div {
+
+				background: $whiteOpaque;
+				padding: 3%;
+				border-radius: 30px;
+				color: $white;
+
+				ul {
+
+					list-style-type: none;
+
+					li {
+
+						a {
+
+							color: $white;
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
