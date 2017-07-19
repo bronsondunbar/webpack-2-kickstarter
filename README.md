@@ -5,8 +5,7 @@
 ## Instructions
 
 ```
-Clone repo
 Run npm install
 Run npm start (Development)
-
 Run npm build (Production)
+```
