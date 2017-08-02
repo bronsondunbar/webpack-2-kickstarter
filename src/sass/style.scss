@@ -8,12 +8,10 @@
 
 body {
 
-	background-image: url('../assets/svg/wrapper.svg');
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 10% 0 0 0;
+	position: relative;
+	padding: 8% 0 0 0;
 	min-height: 100vh;
+	overflow: hidden;
 
 	div {
 
@@ -21,20 +19,32 @@ body {
 
 			div {
 
-				background: $whiteOpaque;
-				padding: 3%;
-				border-radius: 30px;
-				color: $white;
+				.wrapper {
 
-				ul {
+					background: $whiteOpaque;
+					padding: 3%;
+					margin: 0 auto;
+					color: $gray;
 
-					list-style-type: none;
+					ul {
 
-					li {
+						list-style-type: none;
 
-						a {
+						li {
 
-							color: $white;
+							a {
+
+								color: $gray;
+								transition: all 0.3s;
+
+								&:hover, &:focus {
+
+									color: $purple;
+									text-decoration: none;
+
+								}
+
+							}
 
 						}
 
@@ -45,6 +55,42 @@ body {
 			}
 
 		}
+
+	}
+
+	svg {
+
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		left: 0; 
+		top: 0;
+
+	}
+
+}
+
+.brand {
+
+	width: 15%;
+
+}
+
+.grid {
+
+	display: grid;
+	grid-gap: 15px;
+	margin: 15px 0;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(250px, auto);
+
+	.items {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		transition: all 0.3s;
 
 	}
 
