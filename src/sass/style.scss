@@ -9,7 +9,7 @@
 body {
 
 	position: relative;
-	padding: 8% 0 0 0;
+	padding: 3% 0 0 0;
 	min-height: 100vh;
 	overflow: hidden;
 
@@ -81,16 +81,105 @@ body {
 	display: grid;
 	grid-gap: 15px;
 	margin: 15px 0;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-auto-rows: minmax(250px, auto);
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: minmax(150px, auto);
 
-	.items {
+	.extra-item {
 
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 		align-items: center;
 		cursor: pointer;
 		transition: all 0.3s;
+		color: $blue;
+
+		p {
+
+			a {
+
+				color: $blue;
+				text-decoration: none;
+
+				&:hover, &:focus {
+
+					color: $blue;
+
+				}
+
+			}
+
+		}
+
+		.fa {
+
+			display: block;
+			margin: 15px 0;
+			width: 100%;
+
+		}
+
+	}
+
+	.item {
+
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
+		cursor: pointer;
+		transition: all 0.3s;
+		color: $white;
+
+		&:nth-of-type(1) {
+
+			background: $turquoise;
+
+			&:hover, &:focus {
+
+				background: $white;
+				color: $turquoise;
+				border: 1px solid $turquoise;
+
+			}
+
+		}
+
+		&:nth-of-type(2) {
+
+			background: $green;
+
+			&:hover, &:focus {
+
+				background: $white;
+				color: $green;
+				border: 1px solid $green;
+
+			}
+
+		}
+
+		&:nth-of-type(3) {
+
+			background: $pink;
+
+			&:hover, &:focus {
+
+				background: $white;
+				color: $pink;
+				border: 1px solid $pink;
+
+			}
+
+		}
+
+		.fa {
+
+			display: block;
+			margin: 15px 0;
+			width: 100%;
+
+		}
 
 	}
 

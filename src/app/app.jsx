@@ -23,30 +23,54 @@ class App extends Component {
 						<div className="grid">
 
 							<div className="item">
-								<p>SASS compiling &amp; hot reloading</p>
+								<p>
+									<i className="fa fa-4x fa-cogs" aria-hidden="true"></i>
+									SASS compiling &amp; hot reloading
+								</p>
 							</div>
 
 							<div className="item">
-								<p>Image optimization (JPG, PNG, GIF &amp; SVG)</p>
+								<p>
+									<i className="fa fa-4x fa-picture-o" aria-hidden="true"></i>
+									Image optimization (JPG, PNG, GIF &amp; SVG)
+								</p>
 							</div>
 
 							<div className="item">
-								<p>HTML minifying</p>
-							</div>
-
-							<div className="item">
-								<p>JS and CSS minifying for production</p>
+								<p>
+									<i className="fa fa-4x fa-code" aria-hidden="true"></i>
+									HTML, JS and CSS minifying
+								</p>
 							</div>
 
 						</div>
 
 						<h2>Also included:</h2>
 
-						<ul>
-							<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 3 <i className="fa fa-external-link" aria-hidden="true"></i></a></li>
-							<li><a href="http://fontawesome.io/" target="_blank">FontAwesome <i className="fa fa-external-link" aria-hidden="true"></i></a></li>
-							<li><a href="http://l-lin.github.io/font-awesome-animation/" target="_blank">FontAwesome Animations <i className="fa fa-external-link" aria-hidden="true"></i></a></li>
-						</ul>
+						<div className="grid">
+
+							<div className="extra-item">
+								<p>
+									<i className="fa fa-2x fa-external-link" aria-hidden="true"></i>
+									<a href="http://getbootstrap.com/" target="_blank">Bootstrap 3 library</a>
+								</p>
+							</div>
+
+							<div className="extra-item">
+								<p>
+									<i className="fa fa-2x fa-external-link" aria-hidden="true"></i>
+									<a href="http://fontawesome.io/" target="_blank">FontAwesome library</a>
+								</p>
+							</div>
+
+							<div className="extra-item">
+								<p>
+									<i className="fa fa-2x fa-external-link" aria-hidden="true"></i>
+									<a href="http://l-lin.github.io/font-awesome-animation/" target="_blank">FontAwesome Animation library</a>
+								</p>
+							</div>
+
+						</div>
 					</div>
 				</div>
 		  	</div>
