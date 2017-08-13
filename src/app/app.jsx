@@ -12,8 +12,6 @@ class App extends Component {
 			<div>
 				<div className="container">
 					<div className="wrapper">
-						<img src={brandSvg} className="brand" />
-
 						<h1>WebPack 2 Project Kickstarter</h1>
 
 						<p>You can use this project to kickstart the development for your React Redux app.</p>

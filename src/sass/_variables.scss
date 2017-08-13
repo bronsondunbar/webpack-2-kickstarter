@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i');
+
 /* Colors */
 
 $gray: #333333;
@@ -9,3 +12,15 @@ $white: #ffffff;
 $blue: #06A9E1;
 
 $whiteOpaque: rgba(255, 255, 255, 0.9);
+
+/* Backgrounds */
+
+$grayGradient: linear-gradient(135deg, #F1F1F2 0%, #ffffff 100%);
+
+/* Fonts */
+
+$titleFontFamily: "Montserrat", sans-serif;
+$titleFontWeight: 400;
+$titleFontColour: $blue;
+	
+$bodyFontFamily: "Arial", sans-serif;
