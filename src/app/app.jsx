@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import brandSvg from 'svg/brand.svg'
-
 class App extends Component {
 	constructor(props) {
     	super(props)
