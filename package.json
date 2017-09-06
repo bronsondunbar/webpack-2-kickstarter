@@ -1,14 +1,14 @@
 {
   "name": "webpack-2-kickstarter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get your React project started quicker",
   "main": "index.js",
   "scripts": {
     "start": "webpack --progress && webpack-dev-server -d --hot --config webpack.config.js --watch",
     "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bronson Dunbar",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
