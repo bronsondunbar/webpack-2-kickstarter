@@ -2,6 +2,6 @@ require('./sass/style.scss');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app/app.jsx';
+import App from './app/app.js';
 
 ReactDOM.render(<App />, document.getElementById('app'));
